@@ -1,0 +1,25 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# local data (SQLite DB, uploaded files, generated PDFs)
+data/
+!data/.gitkeep
+public/uploads/covers/
+.venv-ocr/
+.commandcode/
+desktop.ini
+
+# secrets
+.env
+.env.local
+.env.*.local
+
+# logs / OS
+*.log
+.DS_Store
+Thumbs.db
